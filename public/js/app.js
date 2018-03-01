@@ -51,6 +51,8 @@ $(document).ready(function() {
         url: urlcat
       }).done(categoria);
     }
+    $('#product').empty();
+    createQueryHash(valorInput);
   });
 
   // Filtrar la busqueda
@@ -70,8 +72,24 @@ $(document).ready(function() {
     var urlcat = `https://api.mercadolibre.com/sites/MPE/search?condition=new&q=${valor}#json`;
     $.ajax({
       url: urlcat
-    }).done(categoria);  
-  });   
+    }).done(categoria);
+    $('#product').empty();
+    createQueryHash(valor)
+    
+  });  
+  
+  //Funcion para modificar la URL
+  function createQueryHash(rend){    
+           if(!$.isEmptyObject(rend)){               
+               window.location.hash = '#nefeli' + rend;
+           }
+           else{
+               window.location.hash = '#';
+           }
+    
+       }
+  
+
 });
 
 
