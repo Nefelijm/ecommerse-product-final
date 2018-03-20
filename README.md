@@ -48,11 +48,9 @@ ________________________________________________________________________________
 
 + Jquery.
 + API de mercado libre.
-+ API de Paypal.
-+ Page.js, que es un manejador de rutas en javascript desde el lado del front-end.
++ minicart.js. Plugin para el pago con Paypal.
 + Handlebars (plantillas). Como su nombre lo dice es un sistema de plantillas y será necesario implementarlo en nuestro proyecto.
 + HTML5.
-+ minicart.js
 + CSS3.
 
 
