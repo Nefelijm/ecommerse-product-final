@@ -63,20 +63,6 @@ $(document).ready(function() {
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
     });
   });
-
-  // Buscando por categorias
-  $('.link').on('click', function() {
-    var valor = $(this).text();
-    console.log(valor);
-    // Utilizamos la API de mercado libre de peru 
-    var urlcat = `https://api.mercadolibre.com/sites/MPE/search?condition=new&q=${valor}#json`;
-    $.ajax({
-      url: urlcat
-    }).done(categoria);
-    $('#product').empty();
-    createQueryHash(valor)
-    
-  });  
   
   //Funcion para modificar la URL
   function createQueryHash(rend){    
