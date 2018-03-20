@@ -39,6 +39,7 @@ $(document).ready(function() {
       });
     });
   }
+  
   // Buscando a travez del input
   $('#btn').on('click', function(evt) {
     evt.preventDefault();

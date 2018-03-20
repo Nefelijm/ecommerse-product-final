@@ -1,10 +1,9 @@
 # E-commerce
+Es una single page app (SPA) multiusuario consumiendo data remota, que te permitira encontrar una variedad de productos (maquillaje,ropa,tecnoligia,hogar,etc.) y lo mejor de todo podras hacer pagos con Paypal. 
 
-* **Track:** _Especialización Front-end_
-* **Curso:** _CONSTRUYE UNA SINGLE PAGE APP (SPA) MULTI-USUARIO CONSUMIENDO DATA REMOTA_
-* **Unidad:** _Producto final_
+![image](https://user-images.githubusercontent.com/32304837/37684478-24b3da24-2c5e-11e8-95d9-86d8a600ccd8.png)
 
-***
+## Desarrollado para [Laboratoria](http://laboratoria.la)
 
 ## Objetivo:
 
